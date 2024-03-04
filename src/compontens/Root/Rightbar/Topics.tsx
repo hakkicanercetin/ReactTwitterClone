@@ -22,7 +22,7 @@ function TopicsContent(){
 export function Topics(){
     return(
         <section className="bg-[#16181c] mb-4 rounded-2xl border border-[#16181c] py-3 px-4 flex flex-col gap-2.5">
-            <h5 className="py-3 px-4 text-xl font-extrabold leading-6 flex items-center text-[#e7e9ea]">İlgini çekebilecek gündemler</h5>
+            <h5 className="py-3 px-4 text-xl font-extrabold leading-6 flex items-center text-[#e7e9ea]">Trends for you</h5>
             <div className="grid">
                 <TopicsContent></TopicsContent>
                 <TopicsContent></TopicsContent>
