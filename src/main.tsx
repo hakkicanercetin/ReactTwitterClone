@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { RouterProvider, createHashRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { Root } from './compontens/Root/Root';
 import ErrorPage from './pages/ErrorPage/ErrorPage';
 import HomePage, { getUsersPosts } from './pages/HomePage/HomePage';
@@ -9,7 +9,7 @@ import "./tailwind.css"
 import { UserPage } from './pages/UserPage/UserPage';
 import { MantineProvider } from '@mantine/core';
 import { BookmarkPage } from './pages/BookmarkPage/BookmarkPage';
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
